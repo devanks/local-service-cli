@@ -1,0 +1,24 @@
+{
+  "name": "local-service-cli",
+  "version": "0.0.1",
+  "description": "A common CLI with a UI interface which can control locally running services",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/devanks/local-service-cli.git"
+  },
+  "keywords": [
+    "cli",
+    "node",
+    "local"
+  ],
+  "author": "devanks",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/devanks/local-service-cli/issues"
+  },
+  "homepage": "https://github.com/devanks/local-service-cli#readme"
+}
