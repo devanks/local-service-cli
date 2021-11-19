@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/devanks/local-service-cli/issues"
   },
-  "homepage": "https://github.com/devanks/local-service-cli#readme"
+  "homepage": "https://github.com/devanks/local-service-cli#readme",
+  "dependencies": {
+    "shelljs": "^0.8.4"
+  }
 }
