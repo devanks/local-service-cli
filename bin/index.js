@@ -20,5 +20,5 @@ const url = "http://api.icndb.com/jokes/random";
 
 axios.get(url, { headers: { Accept: "application/json" } })
     .then(res => {
-        console.log(res.data.value.joke);
+        console.log(res.data.value.jokee);
     });
