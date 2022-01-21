@@ -1,0 +1,10 @@
+{
+  "ifm-vfmt-service": {
+    "health": {
+      "type": "api",
+      "endpoint": "http://localhost:8081/vfmt-api/actuator/health"
+    },
+    "directory": "~/workspace/vfmt-service",
+    "start": "./gradlew bootRun --args=\"--spring.profiles.active=local\""
+  }
+}

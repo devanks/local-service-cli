@@ -1,11 +1,11 @@
 {
   "name": "local-service-cli",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A common CLI with a UI interface which can control locally running services",
   "main": "bin/index.js",
   "scripts": {
     "main": "node bin/index.js -n 'Devan K S'",
-    "start": "node ./bin/www",
+    "start": "nodemon ./bin/www",
     "test": "test"
   },
   "repository": {
@@ -22,19 +22,24 @@
   "bugs": {
     "url": "https://github.com/devanks/local-service-cli/issues"
   },
-  "homepage": "https://github.com/devanks/local-service-cli#readme",
+  "homepage": "https://devanks.github.io/local-service-cli/",
   "dependencies": {
-    "axios": "^0.24.0",
-    "express": "^4.17.1",
-    "shelljs": "^0.8.5",
-    "yargs": "^17.2.1",
+    "@types/shelljs": "^0.8.9",
+    "axios": "^0.25.0",
+    "express": "^4.17.2",
+    "chalk": "^5.0.0",
     "cookie-parser": "~1.4.4",
-    "debug": "~2.6.9",
-    "http-errors": "~1.6.3",
-    "morgan": "~1.9.1",
-    "pug": "3.0.1"
+    "debug": "~4.3.3",
+    "http-errors": "~2.0.0",
+    "morgan": "~1.10.0",
+    "pug": "^3.0.2",
+    "shelljs": "^0.8.5",
+    "yargs": "^17.3.1"
   },
   "bin": {
     "hello": "./bin/index.js"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
   }
 }
